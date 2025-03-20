@@ -13,15 +13,15 @@ Window = Fluent:CreateWindow({
 })
 
 local Tabs = {
-    Info = Window:AddTab({ Title = "Tab Info", Icon = ""}),
-    Server = Window:AddTab({ Title = "Tab Server", Icon = ""})
-    Main = Window:AddTab({ Title = "Tab Main", Icon ="})
-    Player = Window:AddTab({ Title = "Tab Player", Icon = ""}),
-    ESP = Window:AddTab({ Title = "Tab ESP", Icon = ""})
-    Team = Window:AddTab({ Title = "Tab Team", Icon =""})
-    Styles = Window:AddTab({ Title = "Tab Styles", Icon = ""}),
-    Flow = Window:AddTab({ Title = "Tab Flow", Icon = ""})
-    Cosmetics = Window:AddTab({ Title = "Tab Cosmetic", Icon =""})
+    Info = Window:AddTab({ Title = "Tab Info", Icon = "Home"}),
+    Server = Window:AddTab({ Title = "Tab Server", Icon = "Homee"})
+    Main = Window:AddTab({ Title = "Tab Main", Icon ="Home"})
+    Player = Window:AddTab({ Title = "Tab Player", Icon = "Home"}),
+    ESP = Window:AddTab({ Title = "Tab ESP", Icon = "Home"})
+    Team = Window:AddTab({ Title = "Tab Team", Icon ="Home"})
+    Styles = Window:AddTab({ Title = "Tab Styles", Icon = "Home"}),
+    Flow = Window:AddTab({ Title = "Tab Flow", Icon = "Home"})
+    Cosmetics = Window:AddTab({ Title = "Tab Cosmetic", Icon ="Home"})
 }
 ----------------------------------------------------------------------------------------------------------------------------------------------
 local Discord = Tabs.Info:AddSection("Discord")
