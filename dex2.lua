@@ -1,5 +1,5 @@
 local notify =
-game:GetService("Players");game:GetService("StarterGui"):SetCore("SendNotification",{Title="Vxeze Hub",Text="Wait Loading...",Icon="",Duration=9});
+game:GetService("Players");game:GetService("StarterGui"):SetCore("SendNotification",{Title="Vxeze Hub",Text="Wait Loading...",Icon="rbxthumb://type=Asset&id=91347148253026&w=150&h=150",Duration=9});
 ----------------------------------------------------------------------------------------------------------------------------------------------
 Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
 Window = Fluent:CreateWindow({
@@ -284,5 +284,5 @@ Button.MouseButton1Click:Connect(function()
     end
 end)
 local notify =
-game:GetService("Players");game:GetService("StarterGui"):SetCore("SendNotification",{Title="Vxeze Hub",Text="Loading Done..!",Icon="",Duration=9});
+game:GetService("Players");game:GetService("StarterGui"):SetCore("SendNotification",{Title="Vxeze Hub",Text="Loading Done..!",Icon="rbxthumb://type=Asset&id=91347148253026&w=150&h=150",Duration=9});
 
