@@ -873,8 +873,6 @@ local tracer = nil
 local distanceText = nil
 local highlight = nil
 
-local Luna = loadstring(game:HttpGet("https://paste.ee/r/WSCKThwW", true))()
-
 local getgenv = getgenv
 getgenv().Multiplier = 0.5
 local CFrameEnabled = false
@@ -1353,7 +1351,7 @@ StyleTab:CreateDropdown({
     end
 })
 
-StyleTab:CreateSection("Style Selection")
+FlowTab:CreateSection("Style Selection")
 
 FlowTab:CreateDropdown({
     Name = "Select Flow",
