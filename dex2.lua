@@ -22,7 +22,7 @@ local Tabs = {
     Styles = Window:AddTab({ Title = "Tab Styles", Icon = "Home"}),
     Flow = Window:AddTab({ Title = "Tab Flow", Icon = "Home"})
     Cosmetics = Window:AddTab({ Title = "Tab Cosmetic", Icon ="Home"})
-}
+})
 ----------------------------------------------------------------------------------------------------------------------------------------------
 local Discord = Tabs.Info:AddSection("Discord")
 Tabs.Info:AddButton({
